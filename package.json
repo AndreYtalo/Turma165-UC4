@@ -1,0 +1,19 @@
+{
+  "name": "uc04",
+  "version": "1.0.0",
+  "description": "Aulas de desenvolvimento de Back-end parte 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreYtalo/Turma165-UC4.git"
+  },
+  "author": "André Ytalo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreYtalo/Turma165-UC4/issues"
+  },
+  "homepage": "https://github.com/AndreYtalo/Turma165-UC4#readme"
+}
