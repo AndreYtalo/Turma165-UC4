@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Aulas de desenvolvimento de Back-end parte 01",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AndreYtalo/Turma165-UC4/issues"
   },
-  "homepage": "https://github.com/AndreYtalo/Turma165-UC4#readme"
+  "homepage": "https://github.com/AndreYtalo/Turma165-UC4#readme",
+  "dependencies": {
+    "npm": "^11.6.4",
+    "prompt-sync": "^4.2.0"
+  }
 }
