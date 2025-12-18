@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.tabuada {
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.resultado {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
