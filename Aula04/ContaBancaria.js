@@ -14,7 +14,7 @@ export default class ContaBancaria {
       Object.freeze(this);
     }
   
-    // ===== GETTERS =====
+    // GETTERS 
     get agencia() {
       return this.#agencia;
     }
@@ -31,11 +31,12 @@ export default class ContaBancaria {
       return this.#saldo;
     }
   
-    // ===== MÉTODOS =====
+    // MÉTODOS 
   
     sacar(valor) {
       if (valor > 0 && this.getSaldo >= valor){
         this.#saldo -= valor;
+        //this.#saldo = this.getSaldo - valor;
       }else if(valor<=0){
         console.log('Não é possivel sacar valores menores ou igual a 0');
       }else{
@@ -48,6 +49,7 @@ export default class ContaBancaria {
     depositar(valor) {
         if (valor <= 0) {
             this.#saldo += valor;
+            //this.#saldo = this.getSaldo + valor;
         }else{
             console.log('Depósito invalido');
             
